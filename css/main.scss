@@ -1,0 +1,11 @@
+$font-weight:("regular":400,
+"medium":500,
+"bold":700);
+$primary-color:red;
+
+
+body{
+    background-color: $primary-color;
+    color: aliceblue;
+    font-weight:map-get($font-weight:bold) ;
+}
